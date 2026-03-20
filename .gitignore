@@ -1,0 +1,43 @@
+# 🔹 Ambiente virtual
+wolf-venv/
+venv/
+.env/
+
+# 🔹 Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔹 Jupyter Notebook
+.ipynb_checkpoints/
+
+# 🔹 Dados (MUITO IMPORTANTE em projetos quant)
+data/
+*.csv
+*.parquet
+*.feather
+
+# 🔹 Logs
+*.log
+
+# 🔹 Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# 🔹 IDEs
+.vscode/
+.idea/
+
+# 🔹 Arquivos temporários
+*.tmp
+*.bak
+
+# 🔹 Outputs de modelos
+models/
+outputs/
+results/
+
+# 🔹 Arquivos sensíveis
+.env
+.env.*
